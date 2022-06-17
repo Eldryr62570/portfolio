@@ -84,3 +84,40 @@ span {
     color: #ffffff;
     background-color: #4895B6;
 }
+.profilePicture{
+    height : 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #4895B6;
+}
+/*Compétences*/
+.skills{
+    height : fit-content;
+}
+.color-html{
+    color :#e96228;
+}
+.color-css{
+    color :#2862e9;
+}
+.color-js{
+    color :#f7df1e;
+}
+.color-php{
+    color:#54618a;
+}
+.color-bg-grey{
+    background-color :#f7f7f7;
+}
+.color-bg-white{
+    background-color: #f7f7f7;
+}
+
+.card{
+    min-width: 260px;
+    border-radius: 3px;
+    border: none;
+}
+.card-header{
+    border :none;
+}
