@@ -7,6 +7,10 @@ body {
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color : black;
+}
 /*Navbar*/
 .navbar{
     background-color: #F7F7F7;
@@ -85,6 +89,7 @@ span {
     background-color: #4895B6;
 }
 .profilePicture{
+    margin-left: 100px;
     height : 300px;
     width: 300px;
     border-radius: 50%;
@@ -112,7 +117,6 @@ span {
 .color-bg-white{
     background-color: #f7f7f7;
 }
-
 .card{
     min-width: 260px;
     border-radius: 3px;
@@ -120,4 +124,19 @@ span {
 }
 .card-header{
     border :none;
+}
+/*seconde section (expériences)*/
+
+.title-exp{
+    padding: 5vh 0 0 10vw;
+}
+.text-exp{
+    padding-left: 10vw;
+    font-size : 150%;
+}
+.iconContainer{
+    font-size: 180%;
+}
+.iconContainer a:hover{
+    color: #51a8cd;
 }
