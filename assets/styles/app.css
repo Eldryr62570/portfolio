@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border:0;
 }
 
 body {
@@ -70,19 +71,19 @@ span {
     font-weight: bold;
 }
 .titleBody h1{
-    margin-left : 25px;
+    margin-left : 50px;
     font-size : 5.5em;
     margin-bottom: 0;
 }
 .titleBody p{
-    margin-left : 25px;
+    margin-left : 56px;
     margin-bottom: 0;
 }
 .btn-custom1 {
     color: #4895B6;
     border-color: #4895B6;
     border-radius : 3px;
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 56px;
 }
 .btn-custom1:hover{
     color: #ffffff;
@@ -98,6 +99,9 @@ span {
 /*Compétences*/
 .skills{
     height : fit-content;
+}
+.color-black{
+    color:#000000;
 }
 .color-html{
     color :#e96228;
@@ -140,3 +144,114 @@ span {
 .iconContainer a:hover{
     color: #51a8cd;
 }
+/*Form contact*/
+.form-contact{
+  background-color: #4895B6;
+}
+.titleContainer-blue {
+    color:white;
+}
+.titleContainer-blue span{
+    color : white;
+}
+.form-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container form{
+    background-color: white;
+    padding : 10px;
+    border-radius: 3px;
+    
+}
+.form-container form button{
+    border-radius: 3px;
+    margin-top:20px;
+    background-color: #4895B6;
+    border : none;
+}
+.title-contact{
+    padding-left: 50px;
+}
+
+.form-container form button:hover{
+    background-color:#51a8cd;
+}
+.form-container form input{
+    width: 50vw;
+    margin : 10px 0 10px 0;
+    border:none;
+    background-color: #f7f7f7;
+}
+.form-container form textarea{
+    background-color: #f7f7f7;
+    width: 50vw;
+    border: none;
+    resize: none;
+    margin-top:10px;
+}
+.title-desc{
+    font-size: 150%;
+    margin-left:50px;
+}
+/* Footer*/
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  #contact a {
+    color: #000000;
+    margin: 10px;
+  }
+  
+  #contact {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #F7F7F7;
+  }
+  
+  .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s, box-shadow 0.5s;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
+  }
+  
+  #icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+  }
+  
+  #contact p {
+      font-size: 14px;
+  }
+  .text-footer{
+    height:40vh;
+  }
+
+  footer{
+    color:black;
+  }
+  .text-footer{
+    height:fit-content;
+  }
