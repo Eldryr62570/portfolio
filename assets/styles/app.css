@@ -3,7 +3,9 @@
     padding: 0;
     border:0;
 }
-
+a{
+    transition : 0.1s ease-in-out
+}
 body {
     margin: 0;
     padding: 0;
@@ -209,7 +211,10 @@ ul {
     color: #000000;
     margin: 10px;
   }
-  
+  #contact a:hover {
+    color: #4895B6;
+   
+  }
   #contact {
     color: #fff;
     display: flex;
