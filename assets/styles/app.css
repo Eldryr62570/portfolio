@@ -255,3 +255,11 @@ ul {
   .text-footer{
     height:fit-content;
   }
+  .separator{
+    height : 2px;
+    width: 70%;
+    margin : 10px 0 10px 0;
+    background-color: rgba(228, 228, 228, 0.381);
+    border: rgba(228, 228, 228, 0.381);
+    border-radius: 50%;
+  }
