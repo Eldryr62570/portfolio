@@ -1,68 +1,80 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
 }
-a{
-    transition : 0.1s ease-in-out
+
+a {
+    transition: 0.1s ease-in-out
 }
+
 body {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
-    color : black;
+    color: black;
 }
+
 /*Navbar*/
-.navbar{
+.navbar {
     background-color: #F7F7F7;
     display: flex;
-    height:10vh;
+    height: 10vh;
     justify-content: space-between;
     align-items: center;
     padding: 0 !important;
 }
-.navbar .navLinks{
+
+.navbar .navLinks {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin: 15px 0;
     margin-left: 20px;
 }
-.navbar .navLinks a{
-    font-size : 135%;
+
+.navbar .navLinks a {
+    font-size: 135%;
     margin: 0 0.6vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.contactLink{
+
+.contactLink {
     background-color: #4895B6;
-    color:white !important;
-    padding : 0 15px 0 15px;
-    height : 65%;
+    color: white !important;
+    padding: 0 15px 0 15px;
+    height: 65%;
     border-radius: 2px;
 }
-.contactLink:hover{
-    color:rgb(223, 223, 223) !important;
+
+.contactLink:hover {
+    color: rgb(223, 223, 223) !important;
 }
+
 .iconLinks {
-    font-size : 2.0em !important;
-    padding : 0 50px;
+    font-size: 2.0em !important;
+    padding: 0 50px;
 }
-.iconLinks a{
+
+.iconLinks a {
     color: #4895B6;
-    padding : 5px;
+    padding: 5px;
 }
-nav a:hover{
-    color: #51a8cd!important;
-    cursor :pointer;
+
+nav a:hover {
+    color: #51a8cd !important;
+    cursor: pointer;
 }
+
 /*Premiére section*/
-.titleBody{
+.titleBody {
     height: 90vh;
     background-color: #F7F7F7;
 }
@@ -72,160 +84,192 @@ span {
     font-size: 120%;
     font-weight: bold;
 }
-.titleBody h1{
-    margin-left : 50px;
-    font-size : 5.5em;
+
+.titleBody h1 {
+    margin-left: 50px;
+    font-size: 5.5em;
     margin-bottom: 0;
 }
-.titleBody p{
-    margin-left : 56px;
+
+.titleBody p {
+    margin-left: 56px;
     margin-bottom: 0;
 }
+
 .btn-custom1 {
     color: #4895B6;
     border-color: #4895B6;
-    border-radius : 3px;
+    border-radius: 3px;
     margin: 20px 0 0 56px;
 }
-.btn-custom1:hover{
+
+.btn-custom1:hover {
     color: #ffffff;
     background-color: #4895B6;
 }
-.profilePicture{
+
+.profilePicture {
     margin-left: 100px;
-    height : 300px;
+    height: 300px;
     width: 300px;
     border-radius: 50%;
     background-color: #4895B6;
 }
+
 /*Compétences*/
-.skills{
-    height : fit-content;
+.skills {
+    height: fit-content;
 }
-.color-black{
-    color:#000000;
+
+.color-black {
+    color: #000000;
 }
-.color-html{
-    color :#e96228;
+
+.color-html {
+    color: #e96228;
 }
-.color-css{
-    color :#2862e9;
+
+.color-css {
+    color: #2862e9;
 }
-.color-js{
-    color :#f7df1e;
+
+.color-js {
+    color: #f7df1e;
 }
-.color-php{
-    color:#54618a;
+
+.color-php {
+    color: #54618a;
 }
-.color-bg-grey{
-    background-color :#f7f7f7;
-}
-.color-bg-white{
+
+.color-bg-grey {
     background-color: #f7f7f7;
 }
-.card{
+
+.color-bg-white {
+    background-color: #f7f7f7;
+}
+
+.card {
     min-width: 260px;
     border-radius: 3px;
     border: none;
 }
-.card-header{
-    border :none;
+
+.card-header {
+    border: none;
 }
+
 /*seconde section (expériences)*/
 
-.title-exp{
+.title-exp {
     padding: 5vh 0 0 10vw;
 }
-.text-exp{
+
+.text-exp {
     padding-left: 10vw;
-    font-size : 150%;
+    font-size: 150%;
 }
-.iconContainer{
+
+.iconContainer {
     font-size: 180%;
 }
-.iconContainer a:hover{
+
+.iconContainer a:hover {
     color: #51a8cd;
 }
+
 /*Form contact*/
-.form-contact{
-  background-color: #4895B6;
+.form-contact {
+    background-color: #4895B6;
 }
+
 .titleContainer-blue {
-    color:white;
+    color: white;
 }
-.titleContainer-blue span{
-    color : white;
+
+.titleContainer-blue span {
+    color: white;
 }
-.form-container{
-    display:flex;
+
+.form-container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.form-container form{
+
+.form-container form {
     background-color: white;
-    padding : 10px;
+    padding: 10px;
     border-radius: 3px;
-    
+
 }
-.form-container form button{
+
+.form-container form button {
     border-radius: 3px;
-    margin-top:20px;
+    margin-top: 20px;
     background-color: #4895B6;
-    border : none;
+    border: none;
 }
-.title-contact{
+
+.title-contact {
     padding-left: 50px;
 }
 
-.form-container form button:hover{
-    background-color:#51a8cd;
+.form-container form button:hover {
+    background-color: #51a8cd;
 }
-.form-container form input{
+
+.form-container form input {
     width: 50vw;
-    margin : 10px 0 10px 0;
-    border:none;
+    margin: 10px 0 10px 0;
+    border: none;
     background-color: #f7f7f7;
 }
-.form-container form textarea{
+
+.form-container form textarea {
     background-color: #f7f7f7;
     width: 50vw;
     border: none;
     resize: none;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.title-desc{
+
+.title-desc {
     font-size: 150%;
-    margin-left:50px;
+    margin-left: 50px;
 }
+
 /* Footer*/
 ul {
     margin: 0;
     padding: 0;
-  }
-  
-  ul li {
+}
+
+ul li {
     list-style: none;
-  }
-  
-  #contact a {
+}
+
+#contact a {
     color: #000000;
     margin: 10px;
-  }
-  #contact a:hover {
+}
+
+#contact a:hover {
     color: #4895B6;
-   
-  }
-  #contact {
+
+}
+
+#contact {
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     background-color: #F7F7F7;
-  }
-  
-  .icon {
+}
+
+.icon {
     background-color: #fff;
     border-radius: 50%;
     width: 40px;
@@ -235,41 +279,45 @@ ul {
     align-items: center;
     transition: transform 1s, box-shadow 0.5s;
     box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
-  }
-  
-  #icon-container {
+}
+
+#icon-container {
     display: flex;
     justify-content: center;
-  }
-  
-  .icon:hover {
+}
+
+.icon:hover {
     transform: translateY(-3px);
     box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
-  }
-  
-  #contact p {
-      font-size: 14px;
-  }
-  .text-footer{
-    height:40vh;
-  }
+}
 
-  footer{
-    color:black;
-  }
-  .text-footer{
-    height:fit-content;
-  }
-  .separator{
-    height : 2px;
+#contact p {
+    font-size: 14px;
+}
+
+.text-footer {
+    height: 40vh;
+}
+
+footer {
+    color: black;
+}
+
+.text-footer {
+    height: fit-content;
+}
+
+.separator {
+    height: 2px;
     width: 70%;
-    margin : 10px 0 10px 0;
+    margin: 10px 0 10px 0;
     background-color: rgba(228, 228, 228, 0.381);
     border: rgba(228, 228, 228, 0.381);
     border-radius: 50%;
-  }
-  /*Back to top*/
-  #button {
+}
+
+/*Back to top*/
+#button {
     display: inline-block;
     background-color: #51a8cd;
     width: 50px;
@@ -279,13 +327,14 @@ ul {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-  }
-  #button::after {
+}
+
+#button::after {
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -293,43 +342,197 @@ ul {
     font-size: 2em;
     line-height: 50px;
     color: #fff;
-  }
-  #button:hover {
+}
+
+#button:hover {
     cursor: pointer;
     background-color: #333;
-  }
-  #button:active {
+}
+
+#button:active {
     background-color: #555;
-  }
-  #button.show {
+}
+
+#button.show {
     opacity: 1;
     visibility: visible;
-  }
-  
-  /* Styles for the content section */
-  
-  .content {
+}
+
+/* Styles for the content section */
+
+.content {
     width: 77%;
     margin: 50px auto;
     font-family: 'Merriweather', serif;
     font-size: 17px;
     color: #6c767a;
     line-height: 1.9;
-  }
-  @media (min-width: 500px) {
+}
+
+@media (min-width: 500px) {
     .content {
-      width: 43%;
+        width: 43%;
     }
+
     #button {
-      margin: 30px;
+        margin: 30px;
     }
-  }
-  .content h1 {
+}
+
+.content h1 {
     margin-bottom: -10px;
     color: #03a9f4;
     line-height: 1.5;
-  }
-  .content h3 {
+}
+
+.content h3 {
     font-style: italic;
     color: #96a2a7;
-  }
+}
+
+/*Dark mode*/
+.toggleNight {
+    z-index: 10;
+    position: absolute;
+    top: 31%;
+    left: 86%;
+}
+
+.checkbox {
+    display: none;
+}
+
+.label {
+    height: 26px;
+    width: 50px;
+    background-color: #232a34;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transform: scale(1.2);
+}
+
+.dark1 .label {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dark1 .label .fa-moon {
+    color: #2B2D42;
+}
+
+.dark1 .label .fa-sun {
+    color: #2B2D42;
+}
+
+
+
+.label .ball {
+    background: #51a8cd;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: translateX(-5px);
+    padding: 1px;
+    transition: transform 0.4s cubic-bezier(0.76, 0.05, 0.22, 0.89);
+}
+
+.dark1 .label .ball {
+    background: rgb(196, 196, 196);
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(15px);
+}
+
+.fa-moon {
+    color: rgb(255, 255, 255);
+}
+
+.fa-sun {
+    color: rgb(255, 255, 255);
+}
+
+.dark1 {
+    background-color: #26283c;
+    transition: all 0.2s smooth;
+}
+
+.dark1 .navbar,
+.dark1 .card-header,
+.dark1 .card-body,
+.dark1 .form-contact {
+    background-color: #2B2D42 !important;
+    color: white;
+}
+
+.dark1 .titleBody {
+    background-color: #2B2D42;
+}
+
+.dark1 .navbar a {
+    color: white;
+}
+
+.dark1 h1,
+.dark1 .display-2,
+.dark1 .display-6,
+.dark1 .display-5,
+.dark1 .text-exp,
+.dark1 .copyright {
+    color: white;
+}
+
+.dark1 span {
+    color: rgb(196, 196, 196);
+}
+
+.dark1 form,
+.dark1 .show {
+    background-color: #26283c !important;
+}
+
+.dark1 input,
+.dark1 textarea,
+.dark1 button {
+    background-color: #11121c !important;
+    color: white !important;
+}
+
+.dark1 button:hover {
+    background-color: #191a29 !important;
+}
+
+.dark1 footer {
+    color: white !important;
+    background-color: #26283c !important;
+}
+
+.dark1 .icon {
+    background-color: #383a56;
+}
+
+.dark1 footer a {
+    color: white !important;
+}
+
+.dark1 .btn-custom1 {
+    color: white;
+    border-color: white;
+}
+
+.dark1 .btn-custom1:hover {
+    background-color: white;
+    color: #383a56;
+}
+.dark1 a{
+    color: white!important;
+}
+.dark1 a:hover{
+    color: rgb(170, 170, 170) !important;
+}

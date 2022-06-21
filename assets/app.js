@@ -28,3 +28,8 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+const darkMode = document.getElementById("dark-mode");
+darkMode.addEventListener("change", () => {
+  document.body.classList.toggle("dark1");
+});
