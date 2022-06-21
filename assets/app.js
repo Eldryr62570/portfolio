@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
 btn.on('click', function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+  $('html, body').animate({scrollTop:0}, '200');
 });
 
 const darkMode = document.getElementById("dark-mode");
