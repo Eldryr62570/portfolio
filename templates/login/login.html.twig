@@ -1,7 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}{% endblock %}
-
+{% block stylesheets %}
+    {{ encore_entry_link_tags('slider') }}
+{% endblock %}
 {% block body %}
     <div class="form-container py-5">
         <form class="d-flex flex-column align-items-center" action="{{ path('login') }}"  method="post">
@@ -13,8 +15,7 @@
                 <input type="password" name="_password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Mot de passe">
             </div>
-            {# If you want to control the URL the user is redirected to on success
-            <input type="hidden" name="_target_path" value="/account"/> #}
+            <input type="hidden" name="_target_path" value="/admin"/> 
             <div class="d-flex justify-content-start w-100">
                 <button type="submit" class="btn btn-primary">Envoyer</button>
             </div>

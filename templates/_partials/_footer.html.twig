@@ -39,6 +39,10 @@
                 <ul>
                     <li> <a href="#">Téléchargez mon CV</a></li>
                     <li> <a href="{{path("login")}}">Panel d'administration</a></li>
+                    {% if app.user %}
+                        <li> <a href="{{path("logout")}}">Deconnexion</a></li>
+                    {% endif %}
+                    
                 </ul>
             </div>
         </div>
