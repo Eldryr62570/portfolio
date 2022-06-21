@@ -24,12 +24,11 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     #[ORM\Column(type: 'string')]
     private $password;
-
+    
     public function getId(): ?int
     {
         return $this->id;
     }
-
     public function getUsername(): ?string
     {
         return $this->username;
@@ -41,7 +40,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
         return $this;
     }
-
     /**
      * A visual identifier that represents this user.
      *
@@ -70,7 +68,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
         return $this;
     }
-
     /**
      * @see PasswordAuthenticatedUserInterface
      */
