@@ -3,6 +3,7 @@
 {% block title %}Portfolio{% endblock %}
 
 {% block body %}
+<a id="button"></a>
 <section class="titleBody">
     <div class="container-fluid h-100 g-0">
         <div class="row h-100 g-0">
@@ -22,7 +23,7 @@
         </div>
     </div>
 </section>
-<section class="skills">
+<section class="skills" id="skill">
     <div class="titleContainer">
         <div class="display-2 p-5">
             <span>C</span>ompétences
@@ -78,7 +79,7 @@
         </div>
     </div>
 </section>
-<section class="exp">
+<section class="exp" id="experience">
     <div class="titleContainer">
         <div class="display-2 p-5">
             <span>E</span>xpériences
@@ -112,7 +113,7 @@
         </div>
     </div>
     {% for project in projects %}
-        <div class="w-100 h-100 d-flex align-items-center my-5">
+    <div class="w-100 h-100 d-flex align-items-center my-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col d-flex justify-content-center p-1">
@@ -121,7 +122,8 @@
                             <img src="build/{{ project.imageProjet }}" alt="" class="img-fluid rounded">
                         </div>
                         <div class="card-body color-bg-white">
-                            <h5 class="card-title d-flex justify-content-center display-6 pb-4">{{ project.nomProjet }}</h5>
+                            <h5 class="card-title d-flex justify-content-center display-6 pb-4">{{ project.nomProjet }}
+                            </h5>
                             <p class="card-text text-center">{{ project.description}}</p>
                             <div class="iconContainer d-flex justify-content-around w-50 py-3">
                                 <a href="{{ project.linkGithub }}"><i class="fa-brands fa-github"></i></a>
@@ -134,11 +136,11 @@
         </div>
     </div>
     {% endfor %}
-    
+
 
 
 </section>
-<section class="form-contact">
+<section class="form-contact" id="contactLink">
     <div class="titleContainer-blue">
         <div class="display-2 pt-5 pb-3 ml-5 title-contact">
             <span>C</span>ontact
