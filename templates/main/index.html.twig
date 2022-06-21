@@ -111,26 +111,32 @@
             <span>M</span>es projets
         </div>
     </div>
-    <div class="w-100 h-100 d-flex align-items-center my-5">
+    {% for project in projects %}
+        <div class="w-100 h-100 d-flex align-items-center my-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col d-flex justify-content-center p-1">
                     <div class="card bg-light mb-3" style="max-width: 18rem;">
                         <div class="card-header text-center display-3 align-items-center color-bg-grey">
-                            <img src="https://via.placeholder.com/1080/920" alt="" class="img-fluid rounded">
+                            <img src="build/{{ project.imageProjet }}" alt="" class="img-fluid rounded">
                         </div>
                         <div class="card-body color-bg-white">
-                            <h5 class="card-title d-flex justify-content-center display-6 pb-4">Guitar'hub</h5>
-                            <p class="card-text text-center">Site portfolio de guitare en ligne</p>
+                            <h5 class="card-title d-flex justify-content-center display-6 pb-4">{{ project.nomProjet }}</h5>
+                            <p class="card-text text-center">{{ project.description}}</p>
                             <div class="iconContainer d-flex justify-content-around w-50 py-3">
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
-                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                                <a href="{{ project.linkGithub }}"><i class="fa-brands fa-github"></i></a>
+                                <a href="{{ project.linkExtern }}"><i class="fa-solid fa-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    {% endfor %}
+    
+
+
 </section>
 <section class="form-contact">
     <div class="titleContainer-blue">
